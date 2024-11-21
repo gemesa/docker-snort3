@@ -1,7 +1,7 @@
 services:
   snort3:
     build: .
-    image: mikehorn/snort3
+    image: snort3:latest
     container_name: snort3
     stdin_open: true
     tty: true
@@ -10,4 +10,4 @@ services:
     read_only: true
     network_mode: "host"
     volumes:
-      - /home/$USER/snort:/files
+      - /home/gemesa/snort:/files
