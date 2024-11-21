@@ -31,7 +31,7 @@ RUN mkdir /snort && \
 
 WORKDIR /snort
 
-ENV DAQ_VERSION 3.0.16
+ENV DAQ_VERSION 3.0.17
 RUN wget -nv https://github.com/snort3/libdaq/archive/refs/tags/v${DAQ_VERSION}.tar.gz  &&  \
     tar -xf v${DAQ_VERSION}.tar.gz &&                                                       \
     cd libdaq-${DAQ_VERSION} &&                                                             \
