@@ -13,7 +13,6 @@ Unofficial [snort3](https://www.snort.org/snort3) IDS/IPS software docker image.
 ## How to build
 ```bash
 $ docker build -t snort3:latest .
-$ docker compose build
 ```
 
 # Usage
